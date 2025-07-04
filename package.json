@@ -1,0 +1,24 @@
+{
+  "name": "js-node-error-handling",
+  "version": "1.0.0",
+  "description": "Professional strategies and best practices for error handling in JavaScript and Node.js applications, including Express middleware",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/exemplos/expressApp.js",
+    "test": "node src/exemplos/testMiddleware.js"
+  },
+  "keywords": [
+    "error-handling",
+    "nodejs",
+    "express",
+    "middleware",
+    "javascript",
+    "error-management"
+  ],
+  "author": "Eryck Assis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
