@@ -1,0 +1,23 @@
+{
+  "name": "js-node-error-handling",
+  "version": "1.0.0",
+  "description": "Professional strategies and best practices for error handling in JavaScript and Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "error-handling",
+    "testing",
+    "jest"
+  ],
+  "author": "Eryck Assis",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
