@@ -4,8 +4,16 @@ const trataErros = require("./erros/funcoesErro");
 const caminhoArquivo = process.argv;
 const link = caminhoArquivo[2];
 
+if (!link) {
+  console.log(trataErros({ code: 'ENOENT' }));
+  process.exit(0);
+}
+
 fs.readFile(link, "utf8", (erro, texto) => {
-  if (erro) throw erro;
+  if (erro) {
+    console.log(trataErros(erro));
+    return;
+  }
   try {
     contaPalavras(texto);
   } catch (erro) {

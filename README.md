@@ -15,6 +15,8 @@ This repository is dedicated to professional strategies and best practices for e
 - Practical examples and use cases for managing both synchronous and asynchronous errors
 - Best practices for handling exceptions, creating custom errors, and propagating errors
 - Modular and reusable code for seamless integration into your own projects
+- **Automated testing suite for error scenarios with comprehensive test coverage**
+- **Documentation and examples of how to simulate failures in tests**
 
 ## Why Is Error Handling Important?
 
@@ -33,6 +35,39 @@ Clone the repository and explore the examples:
 git clone https://github.com/eryckassis/JS-Node-Error-Handling.git
 cd JS-Node-Error-Handling
 ```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run the Application
+
+```bash
+# Process a text file
+node src/index.js arquivos/texto-web.txt
+
+# Test error handling with non-existent file
+node src/index.js arquivo-inexistente.txt
+```
+
+### Run Automated Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests in watch mode
+npm run test:watch
+```
+
+### View Test Documentation
+
+For comprehensive information about the automated error testing suite, see [TESTES.md](./TESTES.md).
 
 Review the code samples and adapt them to your own projects as needed.
 
