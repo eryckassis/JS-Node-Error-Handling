@@ -15,6 +15,7 @@ This repository is dedicated to professional strategies and best practices for e
 - Practical examples and use cases for managing both synchronous and asynchronous errors
 - Best practices for handling exceptions, creating custom errors, and propagating errors
 - Modular and reusable code for seamless integration into your own projects
+- **Complete documentation of Node.js standard error types** with practical examples in Portuguese
 
 ## Why Is Error Handling Important?
 
@@ -35,6 +36,29 @@ cd JS-Node-Error-Handling
 ```
 
 Review the code samples and adapt them to your own projects as needed.
+
+### Documentation
+
+For comprehensive information about Node.js error types, check out our detailed documentation:
+
+📖 **[Tipos de Erros Padrões do Node.js](docs/tipos-erros-nodejs.md)**
+
+This documentation covers:
+- All standard JavaScript/Node.js error types (Error, TypeError, RangeError, etc.)
+- System error codes (ENOENT, EACCES, EADDRINUSE, etc.)
+- Practical examples and use cases
+- Best practices for error handling
+- Written in Portuguese for Brazilian developers
+
+### Running Examples
+
+To see the error types in action, run the demonstration script:
+
+```bash
+node src/exemplos/tipos-erros-demo.js
+```
+
+This will show you live examples of each error type being thrown and caught.
 
 ## Contributing
 
